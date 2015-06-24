@@ -1253,7 +1253,7 @@ if (typeof Object.create !== "function") {
             }
             naturalWidthType = typeof img.naturalWidth;
             if (naturalWidthType !== "undefined" && img.naturalWidth === 0) {
-                return false;
+                return true;
             }
             return true;
         },
